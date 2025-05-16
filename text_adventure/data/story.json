@@ -1,0 +1,16 @@
+{
+    "rooms": {
+        "kitchen": {
+            "description": "A messy kitchen with strange smells",
+            "exits": {"north": "library"}
+        },
+        "library": {
+            "description": "A dusty library with towering bookshelves",
+            "exits": {"south": "kitchen", "east": "basement"}
+        },
+        "basement": {
+            "description": "A dark basement with a single flickering light",
+            "exits": {"west": "library"}
+        }
+    }
+}
