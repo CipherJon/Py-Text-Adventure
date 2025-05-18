@@ -1,10 +1,14 @@
+import os
 from text_adventure.utils import load_story_data
 from text_adventure.rooms.kitchen import Kitchen
 from text_adventure.rooms.library import Library
 from text_adventure.rooms.basement import Basement
 
 def main():
-    story_data = load_story_data('data/story.json')
+    # Dynamic path
+    story_path = os.path.join(os.path.dirname(__file__), 'data', 'story.json')
+    print("Looking for file at:", story_path)  # Debug
+    story_data = load_story_data(story_path)
     ROOM_CLASSES = {
         "kitchen": Kitchen,
         "library": Library,
@@ -31,5 +35,5 @@ def main():
         else:
             print("Invalid command!")
 
-if __name__  == "__main__":
+if __name__ == "__main__":
     main()

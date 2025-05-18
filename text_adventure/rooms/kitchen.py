@@ -1,3 +1,5 @@
+from text_adventure.rooms.room import Room
+
 class Kitchen(Room):
     """A messy kitchen with strange smells. Exits lead to the library.
 

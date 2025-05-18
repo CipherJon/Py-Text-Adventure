@@ -22,8 +22,8 @@ python text_adventure/adventure.py
 ```
 
 ## Game Commands
-- `go [direction]`: Move in a direction (north, south, east, west)
-- `look`: Examine the current room
+- `[direction]`: Move in a direction (north, south, east, west)
+- `look`: Examine the current room (not yet implemented)
 - `quit`: Exit the game
 
 ## Creating Custom Stories

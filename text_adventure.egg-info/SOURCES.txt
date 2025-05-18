@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+text_adventure/__init__.py
+text_adventure/adventure.py
+text_adventure/utils.py
+text_adventure.egg-info/PKG-INFO
+text_adventure.egg-info/SOURCES.txt
+text_adventure.egg-info/dependency_links.txt
+text_adventure.egg-info/entry_points.txt
+text_adventure.egg-info/top_level.txt
